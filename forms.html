@@ -1,0 +1,34 @@
+<form action="/submit" method="POST">
+    <fieldset>
+        <legend>Personal Info</legend>
+        Name: <input type="text" required><br>
+        Email: <input type="email" required><br>
+        Password: <input type="password" required><br>
+    </fieldset>
+    Gender: 
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+    Interests: 
+    <input type="checkbox" name="interest" value="coding"> Coding
+    <input type="checkbox" name="interest" value="reading"> Reading<br>
+    Country: 
+    <select>
+        <option>Tanzania</option>
+        <option>Kenya</option>
+        <option>Uganda</option>
+        <option>South Africa</option>
+        <option>Nigeria</option>
+        <option>Sudan</option>
+    </select><br>
+    <input type="submit">
+</form>
+
+
+
+<!-- 
+Questions:
+
+GET vs POST: GET appends data to the URL (visible), POST sends data in the request body (secure for sensitive info).
+
+Missing required input: The browser blocks submission and shows an error if required is set.
+ -->

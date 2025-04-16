@@ -1,0 +1,5 @@
+Questions: Understanding the DOM
+
+DOM vs HTML: HTML is the static source code, while the DOM is a dynamic, browser-generated tree structure for rendering.
+
+Modifying nodes: Changes reflect immediately in the browser but do not alter the original HTML file.
